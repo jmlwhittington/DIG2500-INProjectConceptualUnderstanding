@@ -18,7 +18,10 @@
     </header>
     <main>
       <section>
-        <audio id="lab" src="lab.mp3" autoplay hidden loop></audio>
+        <audio id="lab" autoplay hidden loop>
+			<source src="lab.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
 	    <script>
 	    	const audio = document.getElementById("lab");
 	    	audio.volume = 0.15;
