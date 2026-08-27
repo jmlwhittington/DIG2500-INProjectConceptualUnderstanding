@@ -41,6 +41,16 @@ body {
 	background-attachment: fixed;
 }
 
+a:link {
+	color: #9FE8FF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #B8A7FF;
+	text-decoration: none;
+}
+
 div.img img {
 	display: block;
 	margin: 40px auto;
@@ -60,6 +70,11 @@ div.options {
 	justify-content: center;
 }
 
+a:hover {
+	color: #00E5FF;
+	text-decoration: none;
+}
+
 a.option {
 	text-align: center;
 	width: 90%;
@@ -73,20 +88,6 @@ a.option {
 	border-radius: 12px;
 }
 
-a:link {
-	color: #9FE8FF;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #B8A7FF;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #00E5FF;
-	text-decoration: none;
-}
 
 a:active {
 	color: #FFFFFF;
