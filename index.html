@@ -18,8 +18,13 @@
     </header>
     <main>
       <section>
+        <audio id="outside" src="lab.mp3" autoplay hidden loop></audio>
+	      <script>
+	        const audio = document.getElementById("lab");
+	        audio.volume = 0.15;
+	      </script>
         <div class="img">
-          <img src="images/metallic.png" alt="lab-plating.png">
+          <img src="metallic.png" alt="lab-plating.png">
         </div>
         <div class="options">
           <p><a href="page1.html" class="option"><strong>Start Your Journey</strong></a></p>
